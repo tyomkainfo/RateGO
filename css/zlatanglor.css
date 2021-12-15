@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Mont';
+    src: url('../fonts/Mont-Black.eot');
+    src: url('../fonts/Mont-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Mont-Black.woff2') format('woff2'),
+    url('../fonts/Mont-Black.woff') format('woff'),
+    url('../fonts/Mont-Black.ttf') format('truetype'),
+    url('../fonts/Mont-Black.svg#Mont-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
