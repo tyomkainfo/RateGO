@@ -11,3 +11,9 @@
     font-display: swap;
 }
 
+.container{
+    margin: auto;
+    max-width: 1210px;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
