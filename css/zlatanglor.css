@@ -102,7 +102,7 @@ header{
     line-height: 17px;
     color: #FFFFFF;
 }
-.logo{
+header .logo{
     flex: 1 1 auto;
 }
 .nav-bar{
@@ -127,7 +127,7 @@ header{
     font-family: "Font Awesome 5 Free";
     margin-right: 11px;
 }
-header .logo{
+header img {
     max-width: 162px;
     width: 100%;
     max-height: 63px;
