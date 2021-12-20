@@ -55,13 +55,13 @@ $(document).ready(function(){
 });
 
 
-//
-var str=document.getElementById('printt').innerHTML;
-var i=str.length;
 
-var a=0; // Сколько символов показать в самом начале.
-function text() {if(a<=i) {
-    document.getElementById('printt').innerHTML = str.substring(0, a);
-    a++;
-    setTimeout("text()", 100); // Скорость печатания текста
-}} text();
+
+
+
+
+
+
+
+var tl = new TimelineMax({repeat:2, repeatDelay:0, yoyo:true})
+tl.staggerTo(".regis", 1, {className:"+=superShadow", top:"-=10px", ease:Power1.easeIn}, "0.3", "start")
