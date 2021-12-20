@@ -5,7 +5,7 @@
     padding-bottom: 104px;
     text-align: center;
 }
-.calculate-cost h1{
+.calculate-cost h2{
     font-family: Montserrat;
     font-weight: 600;
     font-size: 40px;
@@ -20,7 +20,7 @@
     padding-top: 88px;
     padding-bottom: 114px;
 }
-.calculate-cost-lisa h1{
+.calculate-cost-lisa h2{
     font-family: Montserrat;
     font-weight: bold;
     font-size: 40px;
@@ -35,4 +35,59 @@
     line-height: 24px;
     color: #FFFFFF;
     margin-bottom: 55px;
+}
+.free-advice{
+    background-image: url("../images/фото.jpg");
+    background-size: cover;
+    padding-top: 95px;
+    padding-bottom: 99px;
+}
+.free-advice h2{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-bottom: 26px;
+}
+.free-advice p{
+    font-family: Lato;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.information_l{
+    max-width: 156px;
+    padding: 12px 0 13px 20px;
+    margin-right: 17px;
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    border-radius: 0;
+    border: none;
+    color: #000000;
+
+}
+.information_l:focus{
+    color:#CB454D ;
+    outline-color: #cb454d;
+    outline-offset: 0;
+    outline-style: solid;
+}
+.calculate-cost-l-l{
+    background-color: white;
+    padding-top: 154px;
+    padding-bottom: 155px;
+    text-align: center;
+}
+.calculate-cost-l-l p{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 59px;
 }
