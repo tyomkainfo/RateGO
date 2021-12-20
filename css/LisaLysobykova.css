@@ -13,3 +13,26 @@
     color: #FFFFFF;
     margin-bottom: 40px;
 }
+.calculate-cost-lisa{
+    background-image: url("../images/image14.jpg");
+    background-size: cover;
+    text-align: center;
+    padding-top: 88px;
+    padding-bottom: 114px;
+}
+.calculate-cost-lisa h1{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+
+}
+.calculate-cost-lisa p{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 55px;
+}
