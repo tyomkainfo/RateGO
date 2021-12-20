@@ -1,16 +1,18 @@
 .button{
     font-size: 14px;
-    line-height: 17px;
+    line-height: 24px;
     color: #FFFFFF;
     background: #CB454D;
     border-radius: 2px;
     border: none;
-    padding: 12px 48px 12px 48px;
+    width: 261px;
     text-decoration: none;
     font-family: Montserrat;
     font-weight: 600;
     display: inline-block;
     transition: 0.6s;
+    text-align: center;
+    padding: 12px 0 12px 0;
 }
 .button:hover{
     background-color: #1F1F1F;
@@ -93,7 +95,7 @@ h3{
     margin-top: 48px;
     margin-bottom: 135px;
 }
-.cargo{
+.cargo_r{
     padding: 96px 96px 128px 128px;
     text-decoration: none;
     list-style-type: none;
