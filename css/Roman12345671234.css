@@ -1,128 +1,121 @@
-.button{
-    font-size: 14px;
-    line-height: 24px;
-    color: #FFFFFF;
-    background: #CB454D;
-    border-radius: 2px;
-    border: none;
-    width: 261px;
-    text-decoration: none;
-    font-family: Montserrat;
-    font-weight: 600;
-    display: inline-block;
-    transition: 0.6s;
-    text-align: center;
-    padding: 12px 0 12px 0;
+.button {
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #cb454d;
+  border-radius: 2px;
+  border: none;
+  width: 261px;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-weight: 600;
+  display: inline-block;
+  transition: 0.6s;
+  text-align: center;
+  padding: 12px 0 12px 0;
 }
-.button:hover{
-    background-color: #1F1F1F;
+.button:hover {
+  background-color: #1f1f1f;
 }
 .block_1 {
-    position: relative;
-    width: 50%;
-    display: block;
-    padding: 0;
-    text-align: left;
-    max-width: 710px;
-    height: 486px;
-
+  position: relative;
+  width: 50%;
+  display: block;
+  padding: 0;
+  text-align: left;
+  max-width: 710px;
+  height: 486px;
 }
 .block_2 {
-    position: relative;
-    width: 50%;
-    display: block;
-    margin-left: 24px;
-    margin-right: 0;
-    text-align: left;
-    max-width: 710px;
-    height: 486px;
-    color: #FFFFFF;
+  position: relative;
+  width: 50%;
+  display: block;
+  margin-left: 24px;
+  margin-right: 0;
+  text-align: left;
+  max-width: 710px;
+  height: 486px;
+  color: #ffffff;
 }
-.block_1, .block_2 {
-    display: inline-block;
-    margin-top: 134px;
+.block_1,
+.block_2 {
+  display: inline-block;
+  margin-top: 134px;
 }
-.price{
-    padding: 95px 76px 0 129px;
-    text-decoration: none;
-    list-style-type: none;
-    font-size: 16px;
-    font-family: Lato;
-    color: rgba(0, 0, 0, 0.6);
+.price {
+  padding: 95px 76px 0 129px;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 16px;
+  font-family: Lato;
+  color: rgba(0, 0, 0, 0.6);
 }
-.delivery{
-    padding: 78px 96px 128px 128px;
-    text-decoration: none;
-    list-style-type: none;
-    font-size: 16px;
-    font-family: Lato;
+.delivery {
+  padding: 78px 96px 128px 128px;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 16px;
+  font-family: Lato;
 }
-h3{
-    font-size: 28px;
-    padding-bottom: 63px;
-    font-family: Montserrat;
-    margin: 0;
+h3 {
+  font-size: 28px;
+  padding-bottom: 63px;
+  font-family: Montserrat;
+  margin: 0;
 }
-.but{
-    margin-top: 31px;
-    position: absolute;
+.but {
+  margin-top: 31px;
+  position: absolute;
 }
 .block_3 {
-    position: relative;
-    width: 50%;
-    display: block;
+  position: relative;
+  width: 50%;
+  display: block;
 
-    padding: 0;
-    text-align: left;
-    max-width: 710px;
-    height: 486px;
-    color: #FFFFFF;
+  padding: 0;
+  text-align: left;
+  max-width: 710px;
+  height: 486px;
+  color: #ffffff;
 }
 .block_4 {
-    position: relative;
-    width: 50%;
-    display: block;
-    margin-left: 24px;
-    margin-right: 0;
-    padding: 0;
-    text-align: left;
-    max-width: 710px;
-    height: 486px;
-    color: #FFFFFF;
+  position: relative;
+  width: 50%;
+  display: block;
+  margin-left: 24px;
+  margin-right: 0;
+  padding: 0;
+  text-align: left;
+  max-width: 710px;
+  height: 486px;
+  color: #ffffff;
 }
-.block_3, .block_4 {
-    display: inline-block;
-    margin-top: 48px;
-    margin-bottom: 135px;
+.block_3,
+.block_4 {
+  display: inline-block;
+  margin-top: 48px;
+  margin-bottom: 135px;
 }
-.cargo_r{
-    padding: 96px 96px 128px 128px;
-    text-decoration: none;
-    list-style-type: none;
-    font-size: 16px;
-    font-family: Lato;
+.cargo_r {
+  padding: 96px 96px 128px 128px;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 16px;
+  font-family: Lato;
 }
-.pay{
-    padding: 133px 96px 102px 128px;
-    text-decoration: none;
-    list-style-type: none;
-    font-size: 16px;
-    font-family: Lato;
+.pay {
+  padding: 133px 96px 102px 128px;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 16px;
+  font-family: Lato;
 }
 .superShadow {
-    text-shadow: 0 1px 0 hsl(174,5%,80%),
-    0 2px 0 hsl(174,5%,75%),
-    0 3px 0 hsl(174,5%,70%),
-    0 4px 0 hsl(174,5%,66%),
-    0 5px 0 hsl(174,5%,64%),
-    0 6px 0 hsl(174,5%,62%),
-    0 7px 0 hsl(174,5%,61%),
-    0 1px 3px rgba(255, 255, 255, 0.5),
-    0 3px 5px rgba(255, 255, 255, 0.5),
-    0 5px 10px rgba(255, 255, 255, 0.5),
-    0 8px 0 hsl(174,5%,60%),
-
-    0 0 5px rgba(255, 255, 255, 0.5),
-    0 10px 10px rgba(255, 255, 255, 0.5),
-    0 20px 20px rgba(255, 255, 255, 0.5);
+  text-shadow: 0 1px 0 hsl(174, 5%, 80%), 0 2px 0 hsl(174, 5%, 75%),
+    0 3px 0 hsl(174, 5%, 70%), 0 4px 0 hsl(174, 5%, 66%),
+    0 5px 0 hsl(174, 5%, 64%), 0 6px 0 hsl(174, 5%, 62%),
+    0 7px 0 hsl(174, 5%, 61%), 0 1px 3px rgba(255, 255, 255, 0.5),
+    0 3px 5px rgba(255, 255, 255, 0.5), 0 5px 10px rgba(255, 255, 255, 0.5),
+    0 8px 0 hsl(174, 5%, 60%), 0 0 5px rgba(255, 255, 255, 0.5),
+    0 10px 10px rgba(255, 255, 255, 0.5), 0 20px 20px rgba(255, 255, 255, 0.5);
 }
