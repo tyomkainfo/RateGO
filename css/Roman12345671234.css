@@ -40,7 +40,7 @@
     display: inline-block;
     margin-top: 134px;
 }
-.regis{
+.price{
     padding: 95px 76px 0 129px;
     text-decoration: none;
     list-style-type: none;
@@ -48,7 +48,7 @@
     font-family: Lato;
     color: rgba(0, 0, 0, 0.6);
 }
-.registration{
+.delivery{
     padding: 78px 96px 128px 128px;
     text-decoration: none;
     list-style-type: none;
@@ -93,7 +93,7 @@ h3{
     margin-top: 48px;
     margin-bottom: 135px;
 }
-.reg{
+.cargo{
     padding: 96px 96px 128px 128px;
     text-decoration: none;
     list-style-type: none;
