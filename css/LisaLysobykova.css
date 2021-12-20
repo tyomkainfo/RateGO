@@ -1,0 +1,15 @@
+.calculate-cost{
+    background-image: url("../images/Mask Group.jpg");
+    background-size: cover;
+    padding-top: 104px;
+    padding-bottom: 104px;
+    text-align: center;
+}
+.calculate-cost h1{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
