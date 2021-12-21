@@ -91,12 +91,28 @@ header{
     text-decoration: none;
     display: inline-block;
 }
-.language a:after {
+.lang_item:after {
     content: "\f0d7";
     font-weight: 900;
     font-family: "Font Awesome 5 Free";
     display: inline-block;
     margin-left: 8px;
+}
+.sub_menu{
+    display: none;
+}
+.language ul:hover .sub_menu{
+    display: block;
+}
+.language .sub_menu{
+    position: absolute;
+    margin-left: -14px;
+}
+.language .sub_menu li a{
+    padding: 10px 15px;
+    display: inline-block;
+    background-color: rgba(17,25,46,0.8);
+    width: 100%;
 }
 .header_bar{
     display: flex;
@@ -137,7 +153,7 @@ header .logo img {
 .nav-bar ul li a{
     transition: 0.7s;
 }
-.nav-bar ul li a:hover{
+.nav-bar ul li a:hover, .nav-bar ul li a.active{
     color: #cb454d;
 }
 .accaunt{
