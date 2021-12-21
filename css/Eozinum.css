@@ -20,7 +20,7 @@
   display: flex;
 }
 
-.kk_flex_down {
+.footer_border .kk_flex_down {
   display: flex;
   justify-content: flex-end;
   margin-top: 25px;
@@ -173,6 +173,12 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .footer .kk_flex_item_1,
+  .footer .kk_second_not_main_flex {
+    margin-right: 0;
+    padding-right: 0;
+  }
+
   .mobile_spoiler .mobile_list {
     display: none;
   }
