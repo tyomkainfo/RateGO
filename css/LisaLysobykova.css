@@ -92,3 +92,25 @@
     color: #000000;
     margin-bottom: 59px;
 }
+@media only screen and (max-width: 680px){
+    .lisa_flex{
+        display: flex;
+        flex-direction:column;
+    }
+    .information_l{
+        margin-bottom: 10px;
+    }
+    .calculate-cost h2{
+       font-size: 30px;
+    }
+    .calculate-cost-lisa h2{
+        font-size: 30px;
+    }
+    .free-advice h2{
+        font-size: 30px;
+    }
+    .calculate-cost-l-l p{
+        font-size: 18px;
+    }
+
+}
