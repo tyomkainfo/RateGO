@@ -1,0 +1,303 @@
+.db_section{
+    padding-top: 122px;
+    padding-bottom: 120px;
+}
+.db_flex_container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.db_flex_banner img{
+    display: inline-block;
+    width: 100%;
+}
+.db_main_office h4 {
+    font: 24px/29px "Montserrat";
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 54px;
+}
+.db_headline{
+    font: 24px/36px "Montserrat";
+    color: #000000;
+    font-weight: 700;
+    margin-top: 99px;
+    margin-bottom: 54px;
+}
+.db_flex_offices span{
+    color: #CB454D;
+}
+.db_main_office p:first-of-type{
+    font: 14px/22px "Lato";
+    font-style: normal;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+}
+.db_loc{
+    display: flex;
+}
+.db_loc p{
+    margin-left: 15px;
+}
+.db_main_office p:first-of-type i{
+    height: 15px;
+    color: #10172C;
+}
+.db_main_office p:last-of-type i{
+    height: 15px;
+    margin-right: 12px;
+    color: #10172C;
+}
+.db_main_office p:last-of-type{
+    font: 14px/22px "Lato";
+    font-style: normal;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.6);
+}
+.db_flex_agency{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.db_flex_agency h5{
+    font: 14px/17px "Montserrat";
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 16px;
+}
+.db_flex_agency i{
+    color: black;
+    height: 15px;
+}
+.agency_ua p{
+    font: 14px/22px "Montserrat";
+    color: rgba(0, 0, 0, 0.6);
+    font-style: normal;
+    font-weight: 500;
+}
+.agency_ru p{
+    font: 14px/22px "Montserrat";
+    color: rgba(0, 0, 0, 0.6);
+    font-style: normal;
+    font-weight: 500;
+}
+.db_flex_banner{
+    width: 45%;
+}
+.db_flex_offices{
+    width: 50%;
+}
+.db_section_2{
+    padding-top: 110px;
+}
+.db_flex_container_2{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+.db_desc_banner img{
+    margin: auto;
+    width: 100%;
+}
+.db_desc{
+    margin-right: 123px;
+    max-width: 481px;
+    width: 100%;
+}
+.db_desc p span{
+    color: #cb454d;
+    font: 18px/24px 'Lato';
+    font-weight: 700;
+    font-style: normal;
+}
+.db_desc p{
+    color: rgba(0, 0, 0, 0.6);
+    font: 18px/24px "Lato";
+    font-weight: 400;
+    font-style: normal;
+}
+.db_desc p:first-of-type{
+    margin-bottom: 30px;
+}
+.db_title{
+    margin-bottom: 46px;
+    font: 36px/46px "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    color: #10172C;
+    padding: 0;
+    transition: 0.6s;
+}
+.db_title:hover{
+    color: #cb454d;
+}
+.db_section_3{
+    background-color: #11192E;
+    background-size: cover;
+    padding-top: 147px;
+    padding-bottom: 86px;
+    text-align: center;
+}
+.db_section_3 h3{
+    font: 36px/46px "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 90px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.db_container{
+    max-width: 1176px;
+    margin: auto;
+}
+.db_partners{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.db_partners li{
+    padding-bottom: 70px;
+}
+.db_loc i{
+    transition: 0.7s;
+}
+.db_loc i:hover{
+    color: #cb454d;
+}
+.db_main_office p i{
+    transition: 0.7s;
+}
+.db_main_office p i:hover{
+    color: #cb454d;
+}
+@media only screen and (max-width: 1199px){
+    .db_partners li{
+        margin-right: 30px;
+        padding-bottom: 60px;
+    }
+    .db_flex_banner{
+        width: 45%;
+    }
+    .db_flex_offices{
+        width: 50%;
+    }
+    .db_main_office h4 {
+        margin-bottom: 35px;
+    }
+    .db_headline {
+        margin-top: 45px;
+        margin-bottom: 35px;
+    }
+    .db_main_office p:first-of-type {
+        margin-bottom: 17px;
+    }
+    .db_loc p {
+        margin-left: 10px;
+    }
+    .db_main_office p:last-of-type i {
+        margin-right: 10px;
+    }
+    .db_flex_agency h5 {
+        margin-bottom: 14px;
+    }
+    .db_title{
+        margin-bottom: 30px;
+    }
+    .db_flex_container_2 {
+        justify-content: space-between;
+    }
+    .db_desc{
+        margin-right: 0;
+        width: 50%;
+        max-width: 1180px;
+    }
+    .db_desc_banner_2{
+        width: 47%;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .db_flex_container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .db_flex_offices {
+        width: 80%;
+    }
+    .db_flex_banner {
+        width: 75%;
+        margin-bottom: 20px;
+    }
+    .db_main_office h4 {
+        margin-bottom: 23px;
+        font-size: 22px;
+    }
+    .db_headline {
+        margin-top: 18px;
+        margin-bottom: 13px;
+        font-size: 22px;
+    }
+    .db_main_office p:first-of-type {
+        margin-bottom: 9px;
+    }
+    .db_loc p {
+        margin-left: 7px;
+    }
+    .db_main_office p:last-of-type i {
+        margin-right: 7px;
+    }
+    .db_flex_agency h5 {
+        margin-bottom: 7px;
+    }
+    .db_flex_agency{
+        flex-wrap: wrap;
+    }
+    .agency_ru {
+        margin-bottom: 25px;
+    }
+    .agency_ua{
+        margin-right: 20px;
+    }
+    .db_flex_container_2{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .db_desc{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .db_desc_banner{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .agency_ru{
+        margin-bottom: 25px;
+    }
+    .db_flex_banner{
+        width: 100%;
+    }
+    .db_flex_offices {
+        width: 100%;
+    }
+    .db_desc{
+        width: 100%;
+    }
+    .db_desc_banner{
+        width: 100%;
+    }
+    .db_partners{
+        flex-direction: column;
+    }
+    .db_partners li{
+        padding-bottom: 50px;
+    }
+}
+
+
+
+
+
