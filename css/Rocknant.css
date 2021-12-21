@@ -452,11 +452,18 @@
         line-height: 20px;
         font-family: Lato;
     }
-
+    @media only screen and (max-width: 534px) {
+        .media_adap {
+            display: none;
+        }
+    }
 
 
 }
 @media only screen and (max-width: 360px) {
+    .media_adap {
+        display: contents;
+    }
     .flex_rock {
         margin-top: 35px
     }
@@ -665,5 +672,62 @@
 
 
 }
+
+/*slaider on main page*//*not and*/
+.Agromat {
+    margin-top: 78px;
+    margin-right: 100px;
+    background-color: #11192e;
+    overflow: visible;
+    width: 100%;
+}
+.owl-carousel .owl-item img {
+    width: 50%;
+    display: inline-block;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-bottom: 41px;
+}
+.flex_slader_main {
+    display: flex;
+    justify-content: space-between;
+}
+.quotes {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 150px;
+    line-height: 46px;
+    display: inline-block;
+    position: absolute;
+    z-index: 100;
+    left: 300px;
+    color: #CB454D;
+}
+.slider_text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+.owl-carousel .owl-nav .owl-prev {
+    position: absolute;
+    z-index: 10;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #1F1F1F!important;
+
+}
+.owl-carousel .owl-nav .owl-prev:before {
+    content: "\f30a";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    font-size: 10px;
+}
+
 
 
