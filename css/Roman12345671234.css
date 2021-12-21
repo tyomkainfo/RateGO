@@ -26,6 +26,7 @@
   columns: 2;
   display: inline-flex;
   background-repeat: no-repeat;
+  background-image: url(../images/01_02.jpg);
 }
 .block_2 {
   width: 1210px;
@@ -35,6 +36,7 @@
   columns: 2;
   display: inline-flex;
   background-repeat: no-repeat;
+  background-image: url(../images/03_04.jpg);
 }
 .price {
   padding: 65px 0 0 98px;
