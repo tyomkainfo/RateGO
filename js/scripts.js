@@ -21,7 +21,10 @@ $(document).ready(function(){
 
 const routesBlock = document.querySelector('.routes-block');
 routesBlock.addEventListener('click',function(event){
-    const currentTarget = event.target;
+    let currentTarget = event.target;
+    if (currentTarget.classList.contains('button-click-red')) {
+        currentTarget = currentTarget.parentNode;
+    }
     if (currentTarget.classList.contains('button-click')){
         const blocks = document.querySelectorAll('.block');
         blocks.forEach(function(block){
@@ -34,6 +37,7 @@ routesBlock.addEventListener('click',function(event){
         truck.classList.add(currentTarget.dataset.truckClassname)
     }
 })
+
 
 
 
