@@ -1,0 +1,185 @@
+.reasons{
+    padding-bottom: 120px;
+}
+
+.pes_section h3{
+    padding: 0;
+    font: 36px/46px 'Mont';
+    color: #1F1F1F;
+    font-weight: 700;
+    margin-bottom: 66px;
+}
+
+.pes_d_flex{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+}
+
+.pes_block{
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 70px;
+    transition: 0.7s;
+
+}
+
+.pes_img_block{
+    max-width: 177px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.pes_block:nth-child(odd){
+    margin-right: 95px;
+}
+
+.pes_block:nth-child(even){
+    margin-right: 78px;
+}
+.reasons .pes_block:last-of-type{
+    margin-bottom: 0;
+}
+
+.pes_text_block{
+    margin-left: 23px;
+}
+
+.pes_text_block p{
+    font: 18px/24px 'Mont';
+}
+
+.pes_text_block p:first-of-type{
+    font: 36px/50px 'Mont';
+    margin-bottom: 50px;
+}
+
+.pes_text_block span{
+    color: #CB454D;
+}
+
+.how_we_work{
+    padding: 130px 0;
+}
+
+.how_we_work .pes_block{
+    margin-bottom: 0;
+}
+
+.how_we_work .pes_block:nth-child(1){
+    margin-bottom: 70px;
+}
+
+.how_we_work .pes_block:nth-child(2){
+    margin-bottom: 70px;
+}
+
+@media only screen and (max-width: 1205px){
+    .pes_block:nth-child(odd){
+        margin-right: 45px;
+    }
+
+    .pes_block:nth-child(even){
+        margin-right: 28px;
+    }
+}
+
+@media only screen and (max-width: 1110px){
+    .pes_block:nth-child(odd){
+        margin-right: 30px;
+    }
+
+    .pes_block:nth-child(even){
+        margin-right: 30px;
+    }
+
+    .pes_block{
+        max-width: 400px;
+    }
+
+    .pes_text_block p:first-of-type{
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .pes_section h3{
+        text-align: center;
+    }
+
+    .pes_d_flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start ;
+        flex-wrap: nowrap;
+    }
+
+    .pes_block:nth-child(odd){
+        margin-right: 0;
+    }
+
+    .pes_block:nth-child(even){
+        margin-right: 0;
+    }
+
+    .how_we_work .pes_block:nth-child(3){
+        margin-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .pes_block{
+        max-width: 400px;
+    }
+
+    .pes_text_block p:first-of-type{
+        margin-bottom: 10px;
+    }
+
+    .pes_img_block img{
+        max-width: 150px;
+    }
+
+    .pes_img_block{
+        max-width: 150px;
+    }
+
+    .pes_section h3{
+        font: 30px/40px 'Mont';
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .pes_block{
+        display: block;
+    }
+
+    .pes_d_flex{
+        margin-left: 10px;
+    }
+
+    .pes_text_block{
+        margin-left: 0;
+    }
+}
+
+.pes_section:hover h3{
+    color: black;
+    font-size: 37px;
+    font-weight:900;
+    transition: 1s;
+}
+
+.pes_block:hover .pes_text_block p:first-of-type{
+    color: #cb454d;
+    transition: 0.7s;
+}
+
+.pes_block:hover .pes_text_block span{
+    color: black;
+    transition: 0.7s;
+}
