@@ -36,6 +36,8 @@
   background-repeat: no-repeat;
   background-image: url(../images/01.jpg);
   font-family: Lato;
+  padding-left: 58px;
+  padding-top: 25px;
 }
 .interactive {
   color: #00000099;
@@ -60,6 +62,8 @@
   color: #FFFFFF;
   font-family: Lato;
   font-size: 16px;
+  padding-left: 58px;
+  padding-top: 25px;
 }
 .block_3 {
   width: 50%;
@@ -76,6 +80,8 @@
   color: #FFFFFF;
   font-family: Lato;
   font-size: 16px;
+  padding-left: 58px;
+  padding-top: 25px;
 }
 .block_4 {
   width: 50%;
@@ -91,6 +97,8 @@
   color: #FFFFFF;
   font-family: Lato;
   font-size: 16px;
+  padding-left: 58px;
+  padding-top: 25px;
 }
 h3 {
   font-size: 28px;
