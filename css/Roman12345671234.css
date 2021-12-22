@@ -29,8 +29,11 @@
   background-image: url(../images/01.jpg);
   flex-direction: column;
   font-family: Lato;
-  color: #00000099;
+  color: black;
   font-size: 16px;
+}
+.interactive{
+  color: #00000099;
 }
 .block_2 {
   width: 50%;
@@ -92,5 +95,5 @@ h3 {
   flex-direction: inherit;
   width: 100%;
   justify-content: normal;
-  margin-left: 58px;
+  margin-left: 86px;
 }
