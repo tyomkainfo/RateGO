@@ -32,7 +32,7 @@
   color: black;
   font-size: 16px;
 }
-.interactive{
+.interactive {
   color: #00000099;
 }
 .block_2 {
@@ -94,6 +94,68 @@ h3 {
   display: flex;
   flex-direction: inherit;
   width: 100%;
-  justify-content: normal;
-  margin-left: 86px;
+  justify-content: center;
+  margin-left: 0;
+}
+.block_5 ul {
+  display: none;
+  background-color: #31394C;
+  padding: 12px 34px 12px 4px;
+}
+.block_5:hover ul {
+  display: block;
+  background-color: #20293E;
+}
+.block_5 {
+  margin-top: 1px;
+  display: inline-block;
+  width: 420px;
+  padding-top: 106px;
+  padding-left: 130px;
+}
+.main_mini {
+  text-align: left;
+  text-decoration: none;
+  color: #cb454d;
+  font-family: Montserrat;
+  font-size: 26px;
+}
+.transportation {
+  text-align: left;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 14px;
+}
+.transportation:hover {
+  background-color: #faa523;
+}
+.block_6 {
+  width: 75%;
+  display: flex;
+  padding-top: 81px;
+  padding-left: 80px;
+  margin-bottom: 136px;
+  text-align: left;
+  height: 386px;
+  flex-direction: column;
+  font-family: Lato;
+  color: black;
+  font-size: 16px;
+}
+.red_star {
+  color: #cb454d;
+  font-family: Lato;
+  font-size: 16px;
+  text-decoration: none;
+}
+.travel {
+  text-align: left;
+  text-decoration: none;
+  color: #cb454d;
+  font-family: Montserrat;
+  font-size: 14px;
+}
+.travel:hover {
+  background-color: #faa523;
 }
