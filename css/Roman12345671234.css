@@ -18,41 +18,64 @@
   background-color: #1F1F1F;
 }
 .block_1 {
-  width: 1210px;
+  width: 50%;
+  display: flex;
   margin-top: 134px;
-  margin-bottom: 48px;
+  padding-left: 59px;
+  margin-right: -78px;
   text-align: left;
-  height: 408px;
-  columns: 2;
-  display: inline-flex;
+  height: 386px;
   background-repeat: no-repeat;
-  background-image: url(../images/01_02.jpg);
+  background-image: url(../images/01.jpg);
+  flex-direction: column;
+  font-family: Lato;
+  color: #00000099;
+  font-size: 16px;
 }
 .block_2 {
-  width: 1210px;
-  margin-bottom: 135px;
+  width: 50%;
+  display: flex;
+  margin-top: 134px;
+  padding-left: 59px;
   text-align: left;
-  height: 408px;
-  columns: 2;
-  display: inline-flex;
+  height: 386px;
   background-repeat: no-repeat;
-  background-image: url(../images/03_04.jpg);
-}
-.price {
-  padding: 65px 0 0 98px;
-  text-decoration: none;
-  list-style-type: none;
-  font-size: 16px;
-  font-family: Lato;
-  color: rgba(0, 0, 0, 0.6);
-}
-.delivery {
-  padding: 65px 46px 128px 224px;
-  text-decoration: none;
-  list-style-type: none;
-  font-size: 16px;
-  font-family: Lato;
+  background-image: url(../images/02.jpg);
+  flex-direction: column;
   color: #FFFFFF;
+  font-family: Lato;
+  font-size: 16px;
+}
+.block_3 {
+  width: 50%;
+  display: flex;
+  margin-top: 3px;
+  margin-bottom: 135px;
+  padding-left: 59px;
+  margin-right: -78px;
+  text-align: left;
+  height: 386px;
+  background-repeat: no-repeat;
+  background-image: url(../images/03.jpg);
+  flex-direction: column;
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size: 16px;
+}
+.block_4 {
+  width: 50%;
+  display: flex;
+  margin-top: 3px;
+  margin-bottom: 135px;
+  padding-left: 59px;
+  text-align: left;
+  height: 386px;
+  background-repeat: no-repeat;
+  background-image: url(../images/04.jpg);
+  flex-direction: column;
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size: 16px;
 }
 h3 {
   font-size: 28px;
@@ -61,26 +84,13 @@ h3 {
   font-family: Montserrat;
   margin: 0;
 }
-.but {
+.btn_rec {
   margin-top: 31px;
-  position: absolute;
 }
-.cargo_r {
-  padding: 65px 0 0 98px;
-  margin-right: 210px;
-  text-decoration: none;
-  list-style-type: none;
-  font-size: 16px;
-  color: #FFFFFF;
-  font-family: Lato;
-  max-width: 550px;
-}
-.pay {
-  padding: 65px 56px 102px 0;
-  text-decoration: none;
-  list-style-type: none;
-  font-size: 16px;
-  color: #FFFFFF;
-  font-family: Lato;
-  max-width: 550px;
+.inf_blocks {
+  display: flex;
+  flex-direction: inherit;
+  width: 100%;
+  justify-content: normal;
+  margin-left: 58px;
 }
