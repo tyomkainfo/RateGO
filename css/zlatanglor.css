@@ -284,16 +284,15 @@ header .logo img {
     #menu {
         position: absolute;
         width: 300px;
-        margin: -55px 0 0 -250px;
+        margin: -207px 0 0 -262px;
         padding: 50px;
-        background: rgb(0,0,0,0.6);
+        background: rgb(0, 0, 0, 0.6);
         border-radius: 20px;
         list-style-type: none;
         -webkit-font-smoothing: antialiased;
-        /* to stop flickering of text in safari */
         transform-origin: 0% 0%;
-        transform: translate(100%, 0);
-        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+        transform: translate(-100%, -100%);
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.5, 1.0);
     }
     #menu li {
         padding: 10px 0;

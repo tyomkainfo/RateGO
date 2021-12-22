@@ -674,25 +674,28 @@
 }
 
 /*slaider on main page*//*not and*/
-.Agromat {
+.review {
     margin-top: 78px;
     margin-right: 100px;
-    background-color: #11192e;
-    overflow: visible;
-    width: 100%;
+    background-color: #F9F9F9;
+    padding: 60px 30px;
+    position: relative;
 }
 .owl-carousel .owl-item img {
-    width: 50%;
+    width: 156px;
+    height: 20px;
     display: inline-block;
-    padding-top: 60px;
-    padding-left: 30px;
-    padding-bottom: 41px;
+
+}
+.foto_review{
+    margin-bottom: 30px;
 }
 .flex_slader_main {
     display: flex;
     justify-content: space-between;
 }
-.quotes {
+.foto_review:after{
+    content: "“";
     font-family: Montserrat;
     font-style: italic;
     font-weight: bold;
@@ -701,32 +704,60 @@
     display: inline-block;
     position: absolute;
     z-index: 100;
-    left: 300px;
+    right: 30px;
+    top: 15px;
     color: #CB454D;
 }
-.slider_text {
+.review p {
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
     color: rgba(0, 0, 0, 0.6);
-    padding-left: 30px;
-    padding-bottom: 50px;
 }
 .owl-carousel .owl-nav .owl-prev {
     position: absolute;
     z-index: 10;
-    width: 50px;
-    height: 50px;
+    width: 79px;
+    height: 64px;
     border: 2px solid #1F1F1F!important;
-
+    bottom: -97px;
+}
+.owl-carousel .owl-nav .owl-next{
+    position: absolute;
+    left: 77px;
+    z-index: 10;
+    width: 79px;
+    height: 64px;
+    border: 2px solid #1F1F1F!important;
+    bottom: -97px;
 }
 .owl-carousel .owl-nav .owl-prev:before {
     content: "\f30a";
     font-weight: 900;
     font-family: "Font Awesome 5 Free";
-    font-size: 10px;
+    font-size: 18px;
+}
+.owl-carousel .owl-nav .owl-next:before{
+    content: "\f30b";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    font-size: 18px;
+}
+.owl-carousel .owl-nav.disabled {
+    display: block;
+}
+.slider_main_block{
+    padding: 127px 0 97px;
+}
+.slider_main_block h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    color: #000000;
 }
 
 
