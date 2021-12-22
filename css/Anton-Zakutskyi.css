@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+.about_main_banner{
+  background-image: url("../images/about_banner.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center top;
+}
+
+.contacts_main_banner{
+  background-image: url("../images/contacts_banner.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center top;
+}
+
+.autsorsing_main_banner{
+  background-image: url("../images/autsourcing_banner.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center top;
+}
+
+.main_page_banner{
+  background-image: url("../images/main_page_banner.jpg");
+  padding-bottom: 140px;
+  background-size: cover;
+  background-position: center top; 
+}
+
+.about_main_banner span{
+  color: #CB454D;
+}
+
+h1{
+padding-top: 243px;
+font-family: "Montserrat";
+font-weight: 800;
+font-size: 48px;
+line-height: 59px;
+color: #FFFFFF;
+}
+
+.autsorsing_main_banner h1{
+  padding-top: 207px;
+}
+
+.autsorsing_main_banner p{
+  margin: 30px 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  max-width: 448px;
+  display: inline-block;
+  width: 100%;
+}
+
+.autsorsing_main_banner h3{
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 35px;
+}
+
+.button {
+  max-width: 238px;
+  display: inline-block;
+  width: 100%;
+  background-color: #CB454D;
+  border-radius: 2px;
+  padding: 12px 0;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.autsorsing_main_banner .button {
+  max-width: 255px;
+}
+
+.main_page_banner h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 56px;
+  color: #FFFFFF;
+  padding-top: 221px;
+}
+.main_page_banner .red_text{
+  color: #CB454D;
+}
+
+.main_page_banner form input{
+  margin-top: 27px;
+  max-width: 280px;
+  width: 100%;
+  padding: 12px 19px;
+  margin-right: 20px;
+  background-color: #EDEDED;
+  border-radius: 4px;
+  color: #11192E;
+  border: none;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+}
+.main_page_banner form .btn {
+  background-color: #CB454D;
+  border-radius: 2px;
+  color: #FFFFFF;
+  max-width: 277px;
+}
+
+.main_page_banner .calc_link {
+  display: inline-block;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-top: 25px;
+  text-decoration: none;
+}
+
+
+.main_page_banner .hard_block {
+  margin-top: 102px;
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px dashed #a0a0a0;
+  position: relative;
+
+}
+
+.main_page_banner .hard_block .container {
+  display: flex;
+}
+
+.main_page_banner .hard_block .block {
+  padding-top: 36px;
+  max-width: 300px;
+  width: 100%;
+}
+
+.main_page_banner .hard_block span {
+  display: block;
+  color: #a0a0a0;
+}
+
+.main_page_banner .hard_block .block .price{
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+}
+
+.main_page_banner .hard_block .block .amount {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.main_page_banner .hard_block .block .route {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 16px;
+  padding-bottom: 42px;
+}
+
+.main_page_banner .hard_block .block.active span{
+  color: #FFFFFF;
+  transform: translateY(-2px);
+
+}
+
+
+.button-click {
+  width: 24px;
+  height: 24px;
+  background-color: #CB454D;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -12px;
+  color:white;
+  text-align:center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.button-click-red{
+  background-color: white;
+  width: 6px;
+  height: 6px;
+  border-radius:50%;
+  margin: auto;
+}
+.main_page_banner .hard_block .block.active .button-click {
+  background-color: white;
+}
+.main_page_banner .hard_block .block.active .button-click-red{
+  background-color: #CB454D;
+
+}
+
+
+.main_page_banner .hard_block .truck{
+  display: block;
+  position: absolute;
+  bottom: -11px;
+  left: 70px;
+  transition: 1s;
+}
+
+.main_page_banner .hard_block .truck.move-1 {
+  transform: translateX(170px);
+}
+.main_page_banner .hard_block .truck.move-2 {
+  transform: translateX(460px);
+}
+.main_page_banner .hard_block .truck.move-3 {
+  transform: translateX(755px);
+}
+.main_page_banner .hard_block .truck.move-4 {
+  transform: translateX(1050px);
+}
+
