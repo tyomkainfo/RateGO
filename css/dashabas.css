@@ -220,6 +220,15 @@
     }
 }
 @media only screen and (max-width: 991px) {
+    .db_section_2{
+        padding-top: 50px;
+    }
+    .db_section_3{
+        padding: 50px 0;
+    }
+    .db_section{
+        padding: 50px 0;
+    }
     .db_flex_container{
         flex-wrap: wrap;
         justify-content: center;
@@ -295,6 +304,7 @@
     }
     .db_partners li{
         padding-bottom: 50px;
+        margin-right: 0;
     }
 }
 

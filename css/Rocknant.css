@@ -592,7 +592,7 @@
 
 
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 530px) {
     .media_adap {
         display: contents;
     }
