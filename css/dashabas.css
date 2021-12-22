@@ -99,6 +99,7 @@
 .db_desc_banner img{
     margin: auto;
     width: 100%;
+    display: inline-block;
 }
 .db_desc{
     margin-right: 123px;
