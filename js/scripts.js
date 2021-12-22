@@ -2,16 +2,16 @@ $(document).ready(function(){
 
     $('.owl-carousel').owlCarousel({
         loop:true,
-        margin:0,
+        margin:100,
         nav:true,
         navText: [ '', ' ' ],
 
         responsive:{
-            0:{
-                items:2
+            320:{
+                items:1
             },
 
-            1000:{
+            767:{
                 items:2
             }
         }
