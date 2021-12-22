@@ -6,6 +6,13 @@
   background-size: cover;
   background-position: center top;
 }
+.avia_main_banner{
+  background-image: url("../images/ratego-avia.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center top;
+  margin-bottom: 126px;
+}
 
 .contacts_main_banner{
   background-image: url("../images/contacts_banner.jpg");
@@ -68,23 +75,23 @@ color: #FFFFFF;
   margin-bottom: 35px;
 }
 
-.button {
-  max-width: 238px;
-  display: inline-block;
-  width: 100%;
-  background-color: #CB454D;
-  border-radius: 2px;
-  padding: 12px 0;
-  color: #FFFFFF;
-  text-decoration: none;
-  text-align: center;
+/*.button {*/
+/*  max-width: 238px;*/
+/*  display: inline-block;*/
+/*  width: 100%;*/
+/*  background-color: #CB454D;*/
+/*  border-radius: 2px;*/
+/*  padding: 12px 0;*/
+/*  color: #FFFFFF;*/
+/*  text-decoration: none;*/
+/*  text-align: center;*/
 
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 24px;
-}
+/*  font-family: "Montserrat";*/
+/*  font-style: normal;*/
+/*  font-weight: 600;*/
+/*  font-size: 14px;*/
+/*  line-height: 24px;*/
+/*}*/
 
 .autsorsing_main_banner .button {
   max-width: 255px;
@@ -120,10 +127,8 @@ color: #FFFFFF;
   font-size: 14px;
   line-height: 24px;
 }
-.main_page_banner form .btn {
-  background-color: #CB454D;
-  border-radius: 2px;
-  color: #FFFFFF;
+.main_page_banner form .button {
+
   max-width: 277px;
 }
 
@@ -146,10 +151,12 @@ color: #FFFFFF;
   border-bottom: 1px dashed #a0a0a0;
   position: relative;
 
+
 }
 
 .main_page_banner .hard_block .container {
   display: flex;
+
 }
 
 .main_page_banner .hard_block .block {
