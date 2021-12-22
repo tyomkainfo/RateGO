@@ -141,8 +141,23 @@ header .logo img {
     padding-top: 10px;
     display: flex;
 }
-.nav-bar ul{
+#menu{
     display: flex;
+}
+.active_link:hover .sub_menu{
+    display: block;
+}
+#menu .sub_menu{
+    position: absolute;
+}
+#menu .sub_menu li a{
+    padding: 10px;
+    display: inline-block;
+    background-color: rgba(17,25,46,0.8);
+    width: 100%;
+}
+#menu span{
+    color: #cb454d;
 }
 .nav-bar ul li{
     margin-left: 24px;
@@ -211,9 +226,22 @@ header .logo img {
     .header_contacts li{
         margin-bottom: 10px;
     }
-    .nav-bar ul{
+    #menu{
         display: inline-block;
     }
+    #menu .sub_menu {
+        top: 130px;
+        left: 5px;
+    }
+    #menu .sub_menu li a {
+        padding: 0;
+        font-size: 20px;
+        background: none;
+    }
+    #menu .sub_menu li a span{
+        display: none;
+    }
+
     .nav-bar ul li {
         margin-left: 0;
     }
