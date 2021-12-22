@@ -19,6 +19,7 @@
   height: 100vh;
   background-size: cover;
   background-position: center top;
+
 }
 
 .autsorsing_main_banner{
@@ -33,7 +34,8 @@
   padding-bottom: 140px;
   height: 100vh;
   background-size: cover;
-  background-position: center top; 
+  background-position: center top;
+  box-sizing: content-box;
 }
 
 .about_main_banner span{
@@ -95,6 +97,7 @@ color: #FFFFFF;
 
 .autsorsing_main_banner .button {
   max-width: 255px;
+  margin-top: 10px;
 }
 
 .main_page_banner h2 {
@@ -128,7 +131,7 @@ color: #FFFFFF;
   line-height: 24px;
 }
 .main_page_banner form .button {
-
+  margin-top: 20px;
   max-width: 277px;
 }
 
