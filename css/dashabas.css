@@ -162,6 +162,9 @@
 .db_partners li{
     padding-bottom: 70px;
 }
+.db_partners a{
+    display: inline-block;
+}
 .db_loc i{
     transition: 0.7s;
 }
