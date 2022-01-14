@@ -97,7 +97,6 @@
     justify-content: flex-start;
 }
 .db_desc_banner img{
-    margin: auto;
     width: 100%;
     display: inline-block;
 }
@@ -168,7 +167,13 @@
 .db_loc i{
     transition: 0.7s;
 }
-.db_loc i:hover{
+.db_loc p{
+    transition: 0.7s;
+}
+.db_loc:hover i{
+    color: #cb454d;
+}
+.db_loc:hover p{
     color: #cb454d;
 }
 .db_main_office p i{
@@ -177,6 +182,25 @@
 .db_main_office p i:hover{
     color: #cb454d;
 }
+.db_mail{
+    display: inline-block;
+    transition: 0.7s;
+    font-weight: normal;
+    font: 14px/22px 'Lato';
+    color: rgba(0, 0, 0, 0.6);
+}
+.db_mail i{
+    margin-right: 15px;
+    color: black;
+    transition: 0.7s;
+}
+.db_mail:hover{
+    color: #cb454d;
+}
+.db_mail:hover i{
+    color: #cb454d;
+}
+
 @media only screen and (max-width: 1199px){
     .db_partners li{
         margin-right: 30px;
